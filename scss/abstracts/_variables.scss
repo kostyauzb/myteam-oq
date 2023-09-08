@@ -1,0 +1,63 @@
+/* livvic-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/livvic-v14-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* livvic-500italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Livvic";
+    font-style: italic;
+    font-weight: 500;
+    src: url("../fonts/livvic-v14-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* livvic-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/livvic-v14-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* livvic-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/livvic-v14-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* livvic-700italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Livvic";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/livvic-v14-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+$primary-light-coral-color: #f67e7e;
+$primary-midnight-green-color: #014e56;
+$primary-white-color: #ffffff;
+$secondary-raptuer-blue-color: #79c8c7;
+$secondary-police-blue-color: #2c6269;
+$secondary-deep-green-color: #004047;
+$secondary-sacramento-green-color: #012f34;
+$secondary-dark-green-color: #002529;
+$main-font-family: "Livvic", "Arial", sans-serif;
+$h1-large-size: 10rem;
+$h1-large-line: 1;
+$h1-small-size: 6.4rem;
+$h1-small-line: 0.88;
+$h2-size: 4.8rem;
+$h2-line: 1;
+$h3-size: 1.8rem;
+$h3-line: 1.56;
+$main-font-size-1: 1.8rem;
+$main-line-heigt-1: 1.56;
+$main-font-size-2: 1.5rem;
+$main-line-heigt-2: 1.67;

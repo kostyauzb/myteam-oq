@@ -1,0 +1,18 @@
+.btn {
+  padding: 1rem 3.3rem 1.1rem 3.2rem;
+  border: 2px solid transparent;
+  border-radius: 24px;
+  font-size: $primary-white-color;
+  line-height: normal;
+  display: inline-block;
+}
+
+.btn-light {
+  color: $primary-white-color;
+  border-color: $primary-white-color;
+}
+
+.btn-light:hover {
+  color: $secondary-dark-green-color;
+  background-color: $primary-white-color;
+}

@@ -1,0 +1,174 @@
+.hero {
+  padding-top: 5.6rem;
+  padding-bottom: 25rem;
+}
+.hero__container {
+  display: flex;
+}
+.hero__title-wrapper {
+  width: 635px;
+}
+.hero__title {
+  font-size: $h1-large-size;
+  line-height: $h1-large-line;
+}
+.hero__info {
+  width: 445px;
+}
+.hero__divider {
+  margin-bottom: 7.9rem;
+  background-color: $secondary-raptuer-blue-color;
+}
+.site-divider {
+  width: 50px;
+  height: 4px;
+  border: 0;
+}
+.hero__descriptioon {
+  font-size: $main-font-size-1;
+  line-height: $main-line-heigt-1;
+}
+
+.text-primary {
+  color: $primary-light-coral-color;
+}
+
+// FEATURES START
+
+.features {
+  background-color: $secondary-sacramento-green-color;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+.features__container {
+  display: flex;
+}
+.features__info {
+  hr {
+  }
+  h2 {
+  }
+}
+.features__items {
+  ul {
+    // margin-left: 270px;
+  }
+}
+.features__item {
+  margin-top: 5.4rem;
+  img {
+    width: 72px;
+    height: 72px;
+  }
+}
+.features__item-info {
+  h3 {
+  }
+  p {
+  }
+}
+
+@media (max-width: 1050px) {
+  .hero__container {
+    display: block;
+  }
+
+  .hero__title-wrapper {
+    margin-bottom: 2.4rem;
+    width: 100%;
+  }
+
+  .hero__info {
+    width: 100%;
+  }
+
+  .hero__title {
+    text-align: center;
+    width: 100%;
+    font-size: $h1-small-size;
+  }
+
+  .hero__descriptioon {
+    color: $primary-white-color;
+    text-align: center;
+    width: 100%;
+    font-family: "Livvic";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .hero__divider {
+    display: none;
+  }
+}
+.features-divider {
+  margin-bottom: 5.4rem;
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background-color: $primary-light-coral-color;
+}
+
+.features__title {
+  width: 100%;
+  max-width: 500px;
+  height: 144px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $h2-size;
+  margin-top: 5.4rem;
+}
+
+.comments {
+  background-color: $secondary-deep-green-color;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+.comments__container {
+  .comments__title {
+    width: 100%;
+    max-width: 932px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5.6rem;
+    text-align: center;
+    .rapture-blue-text {
+      color: $secondary-raptuer-blue-color;
+    }
+  }
+
+  .comments__cards {
+    display: flex;
+    gap: 3rem;
+    .comments__cards__item {
+      width: 100%;
+      max-width: 350px;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-position: top center;
+      padding-top: 3.6rem;
+      .comments__cards__item__text {
+        font-weight: 600;
+        margin-bottom: 2.4rem;
+      }
+      .commments__cards__item__title {
+        color: $secondary-raptuer-blue-color;
+        letter-spacing: 1px;
+      }
+      .comments__cards__item__description {
+        font-style: italic;
+        font-size: 1.3rem;
+        margin-bottom: 3.2rem;
+      }
+      .comments__cards__item__img {
+        width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
